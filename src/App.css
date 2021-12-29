@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Raleway&display=swap');
+
+html {
+  --full-gold: #E1C58F;
+  --light-gold: #E1C58F65;
+  --main-indigo-blue: #1F3A49;
+  --menu-light-blue: #3D5664;
+  --babyblue-smooth-text: #79ACBC;
+  --white: #fff;
+  --raleway-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--raleway-font);
+}
+
+a{
+  text-decoration: none;
+  color: var(--full-gold);
+}
+
+.App-header {
+  background-color: var(--main-indigo-blue);
+  min-height: 100vh;
+  display: grid;
+  font-size: calc(10px + 2vmin);
+  color: var(--full-gold);
+
+}
+
+.Three-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Side-bar-menu{
+  width: 50%;
+  margin-top: 5vh;
+}
+
+.App-sign{
+  width: 6em;
+  margin: 1.5em 2em;
+}
+
+.Menu-items{
+  background-color: var(--menu-light-blue);
+  height: 80vh;
+  animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+}
+
+.Menu-links-columns{
+  grid-template-columns: 80px 80px;
+  display: grid;
+  margin-left: 6vw;
+}
+
+
+.Menu-list{
+  display: flex;
+  transform: rotate(-90deg);
+  flex-direction: row-reverse;
+  margin-top: 2em;
+  margin-left: -10vw;
+  list-style: none;
+}
+
+.Menu-link{
+  padding: 1vw;
+}
+
+.Menu-text:hover{
+  cursor: pointer;
+  animation-name: changeColor;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.Social-links{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: var(--full-gold);
+  margin-top: 1em;
+  padding: 4px;
+  transform: rotate(90deg);
+}
+
+.Leave-development-div{
+  margin: 1em 1em;
+  text-align: center;
+  animation: appear-left 3s 3s ease both;
+}
+
+.App-door{
+  width: 4em;
+}
+
+.Leave-devclub-text{
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.Leave-devclub-text:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.Main-column{
+  margin: 20vh 0vh 0vh -25vh;
+  animation: inner-left 1s 1s ease both;
+}
+
+.Welcome-text{
+  font-size: 10vw;
+  animation: outer-left 1s 1s ease both, text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.Sub-title{
+  font-size: 4.5vw;
+  position: absolute;
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+
+.Choose-from-menu{
+  color: var(--babyblue-smooth-text);
+}
+
+.Info-text{
+   opacity: 0;
+   animation: appear-left 2.5s 2.5s ease both;
+}
+
+.Image-background-column{
+  background-image: url(./images/intro-girl.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+}
+
+@keyframes changeColor{
+  0%   { color: var(--full-gold); }
+  30% {  color: var(--babyblue-smooth-text); }
+  70% {  color: var(--white); }
+  100% {  color: var(--full-gold); }
+}
+
+@keyframes image-in {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes outer-left {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes inner-left {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes text-clip {
+  from {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes appear-left {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
