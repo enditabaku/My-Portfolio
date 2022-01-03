@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ovo&family=Raleway&display=swap');
 
 html {
+  scroll-behavior: smooth;
+
   --full-gold: #E1C58F;
   --light-gold: #E1C58F65;
   --main-indigo-blue: #1F3A49;
   --menu-light-blue: #3D5664;
   --babyblue-smooth-text: #79ACBC;
+  --waves-dark-blue1: #051e27; 
+  --waves-dark-blue2: #071820;
+  --baby-blue: #84bfbd;
+  --olive-green: #9ccc65;
   --white: #fff;
   --raleway-font: 'Raleway', sans-serif;
 }
@@ -107,7 +113,6 @@ a{
   cursor: pointer;
 }
 
-
 .Main-column{
   margin: 20vh 0vh 0vh -25vh;
   animation: inner-left 1s 1s ease both;
@@ -140,6 +145,81 @@ a{
   opacity: 0.3;
   animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
 }
+
+/* About Section Styles */
+
+.About-header {
+  background-image: linear-gradient(180deg, var(--main-indigo-blue), var(--waves-dark-blue1), var(--waves-dark-blue2));
+  min-height: 100vh;
+  display: grid;
+  font-size: calc(10px + 2vmin);
+  color: var(--baby-blue);
+}
+
+.About-row{
+  margin: 5vh 0vh 0vh 5vh;
+  /* animation: inner-left 1s 1s ease both; */
+}
+
+.Two-columns-grid{
+  display: grid;
+  grid-template-columns: 10% 75%;
+  z-index: 1;
+}
+
+.Photos-background-row{
+  margin-top: -11em;
+  z-index: 0;
+}
+
+.Three-photo{
+  width: 25%;
+  margin-left: 3.5em;
+  opacity: 0.3;
+}
+
+.Three-photo:nth-child(1){
+  transform: rotate(-10deg);
+}
+
+.Sub-text{
+  font-size: 3vw;
+  line-height: 1.5;
+}
+
+.Underline-FrontEnd-Text{
+  text-decoration: underline;
+}
+
+.Pragmatic-Software{
+  color: var(--olive-green);
+}
+
+.Dots{
+  font-size: 4vw;
+  color: var(--olive-green);
+}
+
+.Left-text{
+  float: left;
+    font-size: 1.3vw;
+    transform: rotate(-90deg);
+    margin-top: 9em;
+    width: 8em;
+}
+
+.Right-text{
+  float:right;
+}
+
+
+
+
+
+
+
+
+/* Animations */
 
 @keyframes changeColor{
   0%   { color: var(--full-gold); }
