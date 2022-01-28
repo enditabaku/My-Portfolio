@@ -1,18 +1,13 @@
 <<<<<<< HEAD
-# Portfolio , Endi Tabaku
+# Portfolio
 ======= 
-   Here you can find my portfolio template
+   Here you can find a portfolio template created by Endi Tabaku
 
 ## Built With
 * [React]
 
-## Screenshots
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/Home%20page.png)
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/About%20page.png)
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/Education%20page1.png)
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/Education%20page2.png)
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/Skills-language%20page1.png)
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/Skills-language%20page2.png)
+## Screenshot of the webpage
+![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/portfolio-webtempalte.png)
 
 
 ## Notes
