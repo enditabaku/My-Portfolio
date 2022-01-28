@@ -85,24 +85,24 @@ function App() {
       <header className="About-header" id='About-Section'>
           <div className="Two-columns-grid" data-aos="fade-up" data-aos-duration="3000">
             <div className="Side-bar">
-                <span className='Left-text'>(since Dec 2020)</span>
+                <span className='Left-text'>(since MM YY)</span>
             </div>
             <div className='About-column'>
                 <p>
-                  <span className='Sub-title'>-i am endi tabaku</span>
+                  <span className='Sub-title'>-i am name surname</span>
                   <br/><br/>
                   <p className='Sub-text'>
                     <span>currently working as a full time </span>
-                    <span className='Underline-FrontEnd-Text'>front-end developer</span>
-                    <span className='Pragmatic-Software'> at pragmatic software</span>
+                    <span className='Underline-FrontEnd-Text'>job title here</span>
+                    <span className='Pragmatic-Software'> at company anme</span>
                     <br/>
                     <span className='Dots'>. . . . . . . . .</span>
                     <br/>
                     <span className='Pragmatic-Software'>also</span>
                     <br/>
-                    <span>❧ front end development internship : 2 months</span>
+                    <span>❧ title here internship : X months</span>
                     <br/>
-                    <span className='Right-text'>❧ c# & .net programming internship : 6 months</span>
+                    <span className='Right-text'>❧ title here internship : X months</span>
                   </p>
                 </p>
               </div>
@@ -131,11 +131,11 @@ function App() {
               </div>            
               <div className='Education-info' data-aos="fade-right" data-aos-duration="2000">
                   <br/>
-                  <span className='Large-title'>bachelor diploma in <span className='Green-text'>business informatics</span></span>
+                  <span className='Large-title'>bachelor diploma in <span className='Green-text'>degree title</span></span>
                   <br/>
-                  <span className='Medium-title'>economics faculty, university of tirana</span>
+                  <span className='Medium-title'>nameX faculty, university of city here</span>
                   <br/><br/><br/><br/><br/>
-                  <span className='Large-title-date'>10/2018 – 07/2021</span>
+                  <span className='Large-title-date'>start date – end date</span>
               </div>
            </div>
 
@@ -149,9 +149,9 @@ function App() {
                         <br/>
                         <span className='Medium-title'>high school diploma</span>
                         <br/>
-                        <span className='Medium-title'>‘arben broci’ high school</span>
+                        <span className='Medium-title'>‘school name’ high school</span>
                         <br/><br/><br/><br/><br/>
-                        <span className='Large-title-date-white'>09/2015 – 07/2018</span>
+                        <span className='Large-title-date-white'>start date – end date</span>
                     </div>
                  </div>
               </div>
@@ -164,9 +164,9 @@ function App() {
                         <br/>
                         <span className='Medium-title'>primary school diploma</span>
                         <br/>
-                        <span className='Medium-title'>‘1 qershori’ primary school</span>
+                        <span className='Medium-title'>‘school name’ primary school</span>
                         <br/><br/><br/><br/><br/>
-                        <span className='Large-title-date-white'>09/2006 – 06/2015</span>
+                        <span className='Large-title-date-white'>start date – end date</span>
                     </div>
                  </div>
               </div>
@@ -197,7 +197,7 @@ function App() {
               <div className="Languages-Div">
                  <span className='Center-text Skills-text'>languages</span>
                  <br/>
-                 <span className='Medium-title Skills-text'>mother tongue(s): albanian language</span>
+                 <span className='Medium-title Skills-text'>mother tongue(s): xxxxxx language</span>
                  <br/>
               </div>
               <br/> <br/>
@@ -212,17 +212,17 @@ function App() {
                 <p className='language-grades'>
                   <span>understanding</span>
                   <ul className='language-ul'>
-                    <li>listening  C1</li>
-                    <li>reading  C1</li>
+                    <li>listening  xx</li>
+                    <li>reading  xx</li>
                   </ul>
                   <br/>
                   <span>speaking</span>
                   <ul className='language-ul'>
-                    <li>spoken interaction  B2</li>
-                    <li>spoken productin  B2</li>
+                    <li>spoken interaction  xx</li>
+                    <li>spoken productin  xx</li>
                   </ul>
                   <br/>
-                  <span>writing  B1</span>
+                  <span>writing  xx</span>
                 </p>
             </div>
             <div className="One-Equal-Column">
@@ -230,17 +230,17 @@ function App() {
               <p className='language-grades'>
                     <span>understanding</span>
                     <ul className='language-ul'>
-                      <li>listening  A1</li>
-                      <li>reading  A1</li>
+                      <li>listening  xx</li>
+                      <li>reading  xx</li>
                     </ul>
                     <br/>
                     <span>speaking</span>
                     <ul className='language-ul'>
-                      <li>spoken interaction  A1</li>
-                      <li>spoken productin  A1</li>
+                      <li>spoken interaction  xx</li>
+                      <li>spoken productin  xx</li>
                     </ul>
                     <br/>
-                    <span>writing  A1</span>
+                    <span>writing  xx</span>
                </p>
             </div>
             <div className="One-Equal-Column">
@@ -248,23 +248,23 @@ function App() {
                <p className='language-grades'>
                       <span>understanding</span>
                       <ul className='language-ul'>
-                        <li>listening  A1</li>
-                        <li>reading  A1</li>
+                        <li>listening  xx</li>
+                        <li>reading  xx</li>
                       </ul>
                       <br/>
                       <span>speaking</span>
                       <ul className='language-ul'>
-                        <li>spoken interaction  A1</li>
-                        <li>spoken productin  A1</li>
+                        <li>spoken interaction  xx</li>
+                        <li>spoken productin  xx</li>
                       </ul>
                       <br/>
-                      <span>writing  A1</span>
+                      <span>writing  xx</span>
                </p>
             </div>
          </div>
        </header>
       {/* Computer Skills */}
-      <header className="Skills-header Computer">
+      {/* <header className="Skills-header Computer">
           <div className="Three-columns-grid mt-3">
               <div className="Side-empty"></div>
               <div className='Main-column-skills'>
@@ -276,7 +276,7 @@ function App() {
               </div>
               <div className="Image-background-column-computer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></div>
           </div>
-       </header>
+       </header> */}
 
 
 
