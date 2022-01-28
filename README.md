@@ -7,7 +7,7 @@
 * [React]
 
 ## Screenshot of the webpage
-![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/portfolio-webtempalte.png)
+![Screenshots](https://github.com/enditabaku/My-Portfolio/blob/main/src/images/screenshots/portfolio-template.gif)
 
 
 ## Notes
